@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => NULL,
+        'name' => '__root__',
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => NULL,
+            'dev_requirement' => false,
+        ),
+        'symfony/password-hasher' => array(
+            'pretty_version' => 'v5.4.3',
+            'version' => '5.4.3.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/password-hasher',
+            'aliases' => array(),
+            'reference' => 'b5ed59c4536d8386cd37bb86df2b7bd5fbbd46d4',
+            'dev_requirement' => false,
+        ),
+        'symfony/polyfill-php80' => array(
+            'pretty_version' => 'v1.25.0',
+            'version' => '1.25.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/polyfill-php80',
+            'aliases' => array(),
+            'reference' => '4407588e0d3f1f52efb65fbe92babe41f37fe50c',
+            'dev_requirement' => false,
+        ),
+    ),
+);
