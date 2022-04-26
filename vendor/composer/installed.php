@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '00ea4f6994ddd7afd8de0185b4a89a31436903b0',
+        'reference' => 'b2e71acaf5bfa98cb1d500aea120f7e100870f01',
         'name' => '__root__',
         'dev' => true,
     ),
@@ -16,7 +16,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '00ea4f6994ddd7afd8de0185b4a89a31436903b0',
+            'reference' => 'b2e71acaf5bfa98cb1d500aea120f7e100870f01',
             'dev_requirement' => false,
         ),
         'symfony/password-hasher' => array(
